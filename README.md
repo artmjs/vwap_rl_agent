@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a simplified optimal VWAP execution framework based on a stochastic control and SHDP approach.
+This project implements a simplified optimal VWAP execution framework based on a stochastic control and SHDP approach proposed by Enzo Busseti and Stephen Boyd in "Volume Weighted Average Price Optimal Execution" (2015).
 
 The current version works on synthetic intraday data (prices, volumes, spreads). The code is structured so that real intraday data (e.g. AAPL, EURUSD) can be used with a different data loader.
 
